@@ -1,0 +1,90 @@
+/*Colors and fonts*/
+
+body {
+  background: rgb(178, 218, 234);
+    color: #190467;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 18px;
+    line-height: normal;
+}
+h1{
+  font-family: 'Varela Round', sans-serif;
+}
+  
+
+h2, h3 {
+  color: black;
+  font-size: 20px;
+  line-height: unset;
+  font-family: helvetica;
+  letter-spacing: normal;
+}
+a {
+  color: red;
+  text-decoration: red;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: green;
+  text-decoration: none;}
+
+
+/*Design and class*/
+
+.container {
+        width: 900px auto;
+        margin: 40px 15px ;
+        text-align: center;}
+
+        @media (max-width: 760px) {
+        .container {
+        width: 600px;
+        }
+        } 
+
+
+        @media (max-width: 500px) {
+        .container {
+        width: 400px;
+  }
+} 
+
+#first-card {
+  background-color: white;
+  padding: 30px 20px;
+  box-shadow: 0px 10px 0px rgba(0,0,0,0.1);
+  border-radius: 0px;
+  margin: 60px 200px;
+  text-align: center;}
+
+#img-circle {
+  border-radius: 5%;
+  width:125px;
+  height: 200px;
+  box-shadow: 8px 9px 9px 0px #6f706f;
+  }
+
+.card-white {
+  background-color: white;
+  padding: 30px 20px;
+  box-shadow: 0px 10px 0px rgba(0,0,0,0.1);
+  border-radius: 0px;
+  margin: 20px 50px;
+  text-align: center;}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 20px;
+  text-align: center;
+  color: rgb(178, 218, 234)
+}
+
+.list-inline i {
+  font-size: 70px;
+  color: rgb(178, 218, 234);
+} 
+
